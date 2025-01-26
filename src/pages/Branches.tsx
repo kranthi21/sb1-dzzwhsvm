@@ -5,7 +5,7 @@ const Branches = () => {
   const branches = [
     {
       name: "Main Campus",
-      address: "123 College Road, Near Central Park, Kakinada - 533001",
+      address: "3-16C-59, Andhra Bank Road, Santhinagar, Kakinada - 533003 (Near Mother Theresa Statue)",
       phone: "+91 884 234 5678",
       email: "main@apcollege.edu.in",
       timing: "8:00 AM - 5:00 PM",
@@ -19,7 +19,7 @@ const Branches = () => {
       email: "city@apcollege.edu.in",
       timing: "8:00 AM - 5:00 PM",
       mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30557.84742478721!2d82.21459!3d16.98897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37a3c1d90f6bad%3A0xc2a9a9cad54b3b45!2sKakinada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1709900000000!5m2!1sen!2sin",
-      image: "https://images.unsplash.com/photo-1567168544813-cc03465b4fa8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
+      image: "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
     }
   ];
 

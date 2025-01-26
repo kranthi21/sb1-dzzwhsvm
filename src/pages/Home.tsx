@@ -8,13 +8,14 @@ const Home = () => {
       name: "Dr. Ramesh Kumar",
       role: "Founder & Chairman",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=400",
-      bio: "Dr. Ramesh Kumar has over 30 years of experience in education and has been instrumental in shaping the vision of AP College."
+      bio: "Dr. Ramesh Kumar has over 30 years of experience in education and has been instrumental in shaping the vision of AKHIL Junior College."
     },
     {
       name: "Dr. Priya Sharma",
       role: "Co-Founder & Academic Director",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=400",
-      bio: "Dr. Priya Sharma brings her expertise in academic excellence and curriculum development to provide students with the best educational experience."
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=400",
+      bio: "Dr. Ramesh Kumar has over 30 years of experience in education and has been instrumental in shaping the vision of AKHIL Junior College."
+      // bio: "Dr. Priya Sharma brings her expertise in academic excellence and curriculum development to provide students with the best educational experience."
     }
   ];
 
@@ -25,7 +26,8 @@ const Home = () => {
         <div className="absolute inset-0">
           <img
             className="w-full h-full object-cover"
-            src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
+            // src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
+            src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3"
             alt="College campus"
           />
           <div className="absolute inset-0 bg-indigo-900/70 mix-blend-multiply" />
@@ -115,7 +117,7 @@ const Home = () => {
               Our Founders
             </h2>
             <p className="mt-4 text-lg text-gray-500">
-              Meet the visionaries behind AP College
+              Meet the visionaries behind AKHIL Junior College
             </p>
           </div>
           <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-2">
@@ -154,8 +156,7 @@ const Home = () => {
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-medium text-gray-900">Main Campus</h3>
               <p className="mt-2 text-gray-500">
-                Located in the heart of Kakinada, our main campus features state-of-the-art facilities
-                and easy accessibility.
+                Located in the heart of Kakinada, our main campus
               </p>
               <Link
                 to="/branches"
@@ -166,7 +167,7 @@ const Home = () => {
               </Link>
             </div>
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-medium text-gray-900">City Center Branch</h3>
+              <h3 className="text-xl font-medium text-gray-900">Second Branch</h3>
               <p className="mt-2 text-gray-500">
                 Our city center branch offers the same quality education in a more central location
                 for urban students.
