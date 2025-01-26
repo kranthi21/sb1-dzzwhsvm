@@ -97,7 +97,7 @@ const Admissions = () => {
                   <p className="mt-2 text-gray-600">We will contact you shortly.</p>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="mt-6 space-y-6">
+                <form onSubmit={handleSubmit} className="mt-6 space-y-6" data-netlify="true">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                       Full Name
