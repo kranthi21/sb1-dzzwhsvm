@@ -98,6 +98,7 @@ const Admissions = () => {
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} name="Inquiry" method='POST' className="mt-6 space-y-6" data-netlify="true">
+                  <input type="hidden" name="form-name" value="Inquiry" />
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                       Full Name
