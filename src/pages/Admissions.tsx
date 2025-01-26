@@ -15,6 +15,13 @@ const Admissions = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission logic here
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(() => alert("Form successfully submitted!"))
+      .catch((error) => alert("Form submission error: " + error.message));
     setSubmitted(true);
   };
 
